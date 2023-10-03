@@ -89,12 +89,42 @@ for (let i = 0; i < itCompanies.length; i++) {
 }
 
 console.log(`luana esse é o resultado: ${result}`)
+
+
 // Sort the array using sort() method
+console.log(itCompanies.sort())
+
 // Reverse the array using reverse() method
+console.log(itCompanies.reverse())
+
 // Slice out the first 3 companies from the array
+const test = itCompanies.slice(0, 3)
+console.log('slice com 3 companias', test )
+
 // Slice out the last 3 companies from the array
+const test2 = itCompanies.slice(4, 7)
+console.log('slice com 3 companias', test2 )
+
 // Slice out the middle IT company or companies from the array
+const test3 = itCompanies.slice(3, 4)
+console.log('slice companias', test3 )
+
 // Remove the first IT company from the array
+const test4 = itCompanies.splice(0, 1)
+console.log('remove 1', test4 )
+
+const numbersr = [1, 2, 3, 4, 5]
+console.log(numbersr.splice(4, 1))
+
 // Remove the middle IT company or companies from the array
+const test5 = itCompanies.splice(3, 1)
+console.log('remove meio', test5 )
+
 // Remove the last IT company from the array
+console.log(itCompanies)
+const test6 = itCompanies.splice(4, 1)
+console.log('remove final', test6 )
+
 // Remove all IT companies
+const test7 = itCompanies.splice()
+console.log('remove tudo', test7 )
